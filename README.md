@@ -11,10 +11,14 @@ REviajes organiza paquetes de acuerdo a la época de año, y también ofrece tod
 
 Podemos decir que Reviajes no va a seguir una estrategia de segmentación concreta ya que va a abarcar diferentes tipos de segmentos que su principal objetivo es captar la mayor cantidad de clientes y en consecuencia aumentar sus ingresos, no puede permitirse centrarse en un solo segmento. De esta manera, es más sencillo fidelizar a los compradores. 
 
+
 Integrantes de Grupo:
 
 Hola! Soy Erika Vieytes, tengo 38 años, soy de CABA. Tengo 2 hijos. Soy Licenciada en Administración de Empresas y trabajo como Auditora de Procesos de Tecnología de Información y Comunicación en organismo público. En mis tiempos libres me gusta pasar tiempo con mi familia y viajar.
 
+Hola! Soy Richard....
+
+Hola! Soy Diego...
 
 
 5 sitios de referencias los cuales fueron 
