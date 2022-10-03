@@ -34,6 +34,6 @@ Hola! Soy Diego...
   
 https://www.setilviajes.com/index.php
 https://www.turismocity.com.ar/paquetes-turisticos
-https://pedraza.com.ar/
+https://www.pedraza.com.ar/
 https://www.despegar.com.ar/paquetes/
 https://www.deturista.com/
