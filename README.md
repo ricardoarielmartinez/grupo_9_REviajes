@@ -7,8 +7,13 @@ Podemos decir que la estrategia de venta de Reviajes se encuentra orientada a pe
 REviajes organiza paquetes de acuerdo a la época de año, y también ofrece todo tipo de viajes, ya sean lunas de miel, viajes de aventura, escapadas románticas y otros. 
 Podemos decir que Reviajes no va a seguir una estrategia de segmentación concreta ya que va a abarcar diferentes tipos de segmentos que su principal objetivo es captar la mayor cantidad de clientes y en consecuencia aumentar sus ingresos, no puede permitirse centrarse en un solo segmento. De esta manera, es más sencillo fidelizar a los compradores. 
 
+Integrantes de Grupo:
+Hola! Soy Erika Vieytes, tengo 38 años, soy de CABA. Tengo 2 hijos. Soy Licenciada en Administración de Empresas y trabajo como Auditora de Procesos de Tecnología de Información y Comunicación en organismo público. En mis tiempos libres me gusta pasar tiempo con mi familia y viajar.
+
+
 
 5 sitios de referencias los cuales fueron 
+
   -Presentan paquetes en fechas definidas
   -Muestan los paquetes con imagenes y al acceder a los mismos se cuenta con mas informacion del paquete
   -Son webs con varias visitas actualmente
