@@ -16,8 +16,8 @@ Integrantes de Grupo:
 
 Hola! Soy Erika Vieytes, tengo 38 años, soy de CABA. Tengo 2 hijos. Soy Licenciada en Administración de Empresas y trabajo como Auditora de Procesos de Tecnología de Información y Comunicación en organismo público. En mis tiempos libres me gusta pasar tiempo con mi familia y viajar.
 
-Hola! Soy Richard....
-
+Hola! Soy Ricardo, vivo en Neuquen capital y tengo 36 años. Entré al curso para comenzar mi camino en desarrollo Web. Me motiva mantenerme actualizado con nuevas tecnologías, y que sumen a mi crecimiento laboral y personal. Actualmente trabajo en Sistema de Control, programando plataformas SCADAs.
+Hobbies: Running, mountain bike, snowboard y música.
 
 
 
