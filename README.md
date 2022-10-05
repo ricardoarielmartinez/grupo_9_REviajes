@@ -18,7 +18,7 @@ Hola! Soy Erika Vieytes, tengo 38 años, soy de CABA. Tengo 2 hijos. Soy Licenci
 
 Hola! Soy Richard....
 
-Hola! Soy Diego...
+
 
 
 5 sitios de referencias los cuales fueron 
