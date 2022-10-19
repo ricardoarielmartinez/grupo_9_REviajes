@@ -37,3 +37,8 @@ https://www.turismocity.com.ar/paquetes-turisticos
 https://www.pedraza.com.ar/
 https://www.despegar.com.ar/paquetes/
 https://www.deturista.com/
+
+
+Tablero de Trabajo:
+
+https://trello.com/b/MEFQGCYc/reviajes
