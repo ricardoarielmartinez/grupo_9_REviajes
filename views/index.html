@@ -6,40 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href = "https://fontawesome.com/v5/search?o=r&m=free" rel = "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles_login.css" rel="stylesheet">
+    <link href="css/styles_register.css" rel="stylesheet">    
     <title>reViejes</title>
 </head>
+
+
 <body>
     <header>
-        <Div class="barra-navegacion"></Div>
-            <nav class="barra-navegacion__nav">
-                <div class="barra-navegacion__picture">
-                    <img class="barra-navegacion__picture" src="./images/logo.jpg" alt= "logoReViaje">
-                </div>
-                <div class="lista-menu">
-                    <ul class="lista-menu__ul">
-                        <li>Inicio</li>
-                        <li>Nosotros</li>
-                        <li>Grupales</li>
-                        <li>Individuales</li>
-                        <li>Contacto</li>
-                        <li>Contacto</li>
-                    </ul>
-                </div>
-                <div class="iconos-accesos">
-                    <i class="fas fa-suitcase"></i>   
-                    <a href="/login"><i class="fas fa-user"></i></a>
-                    <a href="/register"><i class="fas fa-user-plus"></i></a>
+        <Div class="barra-navegacion">
+            <nav >
+                <div class="barra-navegacion__nav">
+                    <div class="barra-navegacion__picture">
+                        <img class="barra-navegacion__picture--imagen" src="./images/logo.jpg" alt= "logoReViaje">
+                    </div>
+                    <div class="lista-menu">
+                        <ul class="lista-menu__ul">
+                            <div>
+                                <li>Inicio</li>
+                            </div>
+                            <div>
+                                <li>Nosotros</li>
+                            </div>
+                            <div>
+                                <li>Grupales</li>
+                            </div>
+                            <div>
+                                <li>Individuales</li>
+                            </div>
+                            <div>
+                                <li>Contacto</li>
+                            </div>
+
+                        </ul>
+                    </div>
+                    <div class="iconos-accesos">
+                        <div>
+                            <i class="fas fa-suitcase"></i>   
+                        </div>
+                        <div>
+                            <a href="/login"><i class="fas fa-user"></i></a>
+                        </div>
+                        <div  class="burger-menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
     <main>
         <div class="main-div">
-            <section>
+            <section class="front-page">
                 <div class="picture-frontpage">
                     <img class="picture-frontpage__slider" src="./images/slider.jpg" alt= "Logo de la Empresa">
                 </div>
+                <div class="picture-frontpage__barraBusqueda">
+                    <i class="fas fa-search picture-frontpage__barraBusqueda--icon"></i>
+                    <input class="picture-frontpage__barraBusqueda--input" type="text" name="Buscar" placeholder= "Buscar mi próximo viaje">
+                    <button class="picture-frontpage__barraBusqueda--button" type="button">Buscar</button>
+                </div>
+
             </section>
 
             <section>
@@ -61,7 +92,42 @@
                         </div>
                      </article>
                 </div>
-
+                <div class="lista-productos">
+                    <article>
+                        <div class="item-producto">
+                            <div class="item-producto__picture">
+                                <img src="./images/trip_1.jpg" alt="">
+                            </div>
+                            <div class="item-producto__date">
+                                <h3>26 Diciembre</h3>
+                            </div>
+                            <div class="item-producto__moreinfo">
+                                <a href="/productDetail">Mas informacion</a>
+                            </div>
+                            <div class="item-producto__description">
+                                <h3>Punta Cana</h3>
+                            </div>
+                        </div>
+                     </article>
+                </div>
+                <div class="lista-productos">
+                    <article>
+                        <div class="item-producto">
+                            <div class="item-producto__picture">
+                                <img src="./images/trip_1.jpg" alt="">
+                            </div>
+                            <div class="item-producto__date">
+                                <h3>26 Diciembre</h3>
+                            </div>
+                            <div class="item-producto__moreinfo">
+                                <a href="/productDetail">Mas informacion</a>
+                            </div>
+                            <div class="item-producto__description">
+                                <h3>Punta Cana</h3>
+                            </div>
+                        </div>
+                     </article>
+                </div>
             </section>
         </div>
     </main>
@@ -77,13 +143,23 @@
                         destinos nacionales como internacionales, con SERVICIO TODO INCLUIDO
                     </p>
                 </div>
-                <div class="footer-logo__socialIncons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fas fa-at"></i>
-                    <i class="fab fa-whatsapp"></i>
-                </div>
+            <div class="footer-logo__socialIncons">
+                    <div>
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div>    
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+            </div>
             </div>
             <div class="lista-menu">
                 <ul class="lista-menu__ul">

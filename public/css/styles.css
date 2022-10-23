@@ -3,7 +3,16 @@
 Aca van los estilos correspondiente a layout básico
 de la pagina. Como por ejemplo main, header,h1.. 
 -------------------------------------------------*/
+*{
+    box-sizing:border-box;
+    position: relative;
+    font-family: 'Patrick Hand SC', cursive;
+}
 
+body{
+    background-color:#404040 ;
+    margin: 0%;    
+}
 
 
 
@@ -12,10 +21,39 @@ de la pagina. Como por ejemplo main, header,h1..
 Aca van los estilos correspondiente al Header de la 
 WEB
 -------------------------------------------------*/
+.barra-navegacion{
+    width: 100%;
+}
+.barra-navegacion__nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.barra-navegacion__picture{
+    width: 50%;
+}
+.iconos-accesos{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+}
+.iconos-accesos i{
+    padding: 5px;
+    font-size: 30px; 
+    color: white;   
+}
 
+.barra-navegacion__picture--imagen{
+    padding: 5px;
+    width: 70%;
+    align-content:center;
+}
 
-
-
+.lista-menu__ul{
+    display: none;
+}
 
 /*:::::::::::::::: REGLAS MAIN ::::::::::::::::::
 --------------------------------------------------
@@ -23,17 +61,128 @@ Aca van los estilos correspondiente al Header de la
 MAIN. Ejemplo: slider, lista de articulos,articulos
 -------------------------------------------------*/
 
+.picture-frontpage__slider{
+    width: 100%;
+}
+.picture-frontpage__barraBusqueda i {
+    position: absolute;
+}
+.picture-frontpage__barraBusqueda {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-bottom:10px;
+    width: 100%;
+    bottom: 20px;
+
+}
+.picture-frontpage__barraBusqueda--icon{
+    font-size: 18px;
+    padding: 10px;
+    min-width: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translate(5px, -50%);
+
+}
+.picture-frontpage__barraBusqueda--input{
+    font-size: 18px;
+    width: 68%;
+    padding: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 0px;
+}
+.picture-frontpage__barraBusqueda--button{
+    font-size: 18px;
+    width: 30%;
+    padding: 10px;
+    margin-left: -5px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 0px;
+}
+
+.front-page{
+    position: relative;
+}
 
 
+/*
 
 
+*/
 
 
+.lista-productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-producto{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color:#FFF;
+    width: 95%;
+}
+
+.item-producto img{
+    position: relative;
+    margin-left: 30px;
+    width: 80%;
+}
 /*:::::::::::::::: REGLAS FOOTER ::::::::::::::::
 --------------------------------------------------
 Aca van los estilos correspondiente al Header de la 
 FOOTER 
 -------------------------------------------------*/
+.footer-page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-logo__picture img{
+    width: 50%;
+}
+
+.footer-logo__picture{
+    padding-left: 5px;
+    width: 70%;
+    align-content:center;
+}
+
+.footer-logo__description{
+    padding-left: 5px;
+    font-size: 16px;
+    color: white;
+    margin: 0px;
+}
+.lista-menu{
+    display: none;
+}
+.footer-contacto{
+    display: none;
+}
+
+
+
+.footer-logo__socialIncons{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.footer-logo__socialIncons i{
+    padding: 5px;
+    font-size: 30px; 
+    color: white;   
+}
 
 
 /*:::::::::::::::: ANIMACIONES ::::::::::::::::
@@ -49,3 +198,6 @@ objetos. Ejemplo  hover, active
 Aca van los estilos correspondiente al comportamiento
 de la pagina de acuerdo a la resolución
 -------------------------------------------------*/
+
+
+
