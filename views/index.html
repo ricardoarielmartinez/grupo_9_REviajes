@@ -28,19 +28,19 @@
                     <div class="lista-menu">
                         <ul class="lista-menu__ul">
                             <div>
-                                <li>Inicio</li>
+                                <li class="lista-menu__ul--item"> <a  class ="lista-menu__ul--link" href="/"> Inicio </a></li>
                             </div>
                             <div>
-                                <li>Nosotros</li>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Nosotros</a></li>
                             </div>
                             <div>
-                                <li>Grupales</li>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Grupales</a></li>
                             </div>
                             <div>
-                                <li>Individuales</li>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Individuales</a></li>
                             </div>
                             <div>
-                                <li>Contacto</li>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Contacto</a></li>
                             </div>
 
                         </ul>
@@ -73,63 +73,53 @@
                 </div>
 
             </section>
-
-            <section>
-                <div class="lista-productos">
-                    <article>
-                        <div class="item-producto">
+            <section class="seccion-articulos">
+                    <div class="lista-productos">
+                        <article class="item-producto">
+                                <div class="item-producto__date">
+                                    <h3>26 Dic / 2022</h3>
+                                </div>
+                                <div class="item-producto__picture">
+                                    <img class="item-producto__picture--img" src="./images/trip_1.jpg" alt="">
+                                </div>
+                                <div class="item-producto__moreinfo">
+                                    <a class="item-producto__moreinfo--item"  href="/productDetail">Mas informacion</a>
+                                </div>
+                                <div class="item-producto__description">
+                                    <h3>Punta Cana</h3>
+                                </div>
+                        </article>
+                        <article class="item-producto">
                             <div class="item-producto__picture">
-                                <img src="./images/trip_1.jpg" alt="">
+                                <img class="item-producto__picture--img" src="./images/trip_1.jpg" alt="">
                             </div>
                             <div class="item-producto__date">
                                 <h3>26 Diciembre</h3>
                             </div>
                             <div class="item-producto__moreinfo">
-                                <a href="/productDetail">Mas informacion</a>
+                                <a class="item-producto__moreinfo--item" href="/productDetail">Mas informacion</a>
                             </div>
                             <div class="item-producto__description">
                                 <h3>Punta Cana</h3>
                             </div>
-                        </div>
-                     </article>
-                </div>
-                <div class="lista-productos">
-                    <article>
-                        <div class="item-producto">
+                        </article>
+                        <article class="item-producto">
                             <div class="item-producto__picture">
-                                <img src="./images/trip_1.jpg" alt="">
+                                <img class="item-producto__picture--img" src="./images/trip_1.jpg" alt="">
                             </div>
                             <div class="item-producto__date">
                                 <h3>26 Diciembre</h3>
                             </div>
                             <div class="item-producto__moreinfo">
-                                <a href="/productDetail">Mas informacion</a>
+                                <a class="item-producto__moreinfo--item" href="/productDetail">Mas informacion</a>
                             </div>
                             <div class="item-producto__description">
                                 <h3>Punta Cana</h3>
                             </div>
-                        </div>
-                     </article>
-                </div>
-                <div class="lista-productos">
-                    <article>
-                        <div class="item-producto">
-                            <div class="item-producto__picture">
-                                <img src="./images/trip_1.jpg" alt="">
-                            </div>
-                            <div class="item-producto__date">
-                                <h3>26 Diciembre</h3>
-                            </div>
-                            <div class="item-producto__moreinfo">
-                                <a href="/productDetail">Mas informacion</a>
-                            </div>
-                            <div class="item-producto__description">
-                                <h3>Punta Cana</h3>
-                            </div>
-                        </div>
-                     </article>
-                </div>
+                        </article>
+                    </div>
             </section>
+            
         </div>
     </main>
     <footer>
@@ -144,39 +134,32 @@
                         destinos nacionales como internacionales, con SERVICIO TODO INCLUIDO
                     </p>
                 </div>
-            <div class="footer-logo__socialIncons">
-                    <div>
-                        <i class="fab fa-facebook"></i>
-                    </div>
-                    <div>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                    <div>    
-                        <i class="fas fa-at"></i>
-                    </div>
-                    <div>
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
-            </div>
-            </div>
-            <div class="lista-menu">
-                <ul class="lista-menu__ul">
-                    <li>Inicio</li>
-                    <li>Nosotros</li>
-                    <li>Grupales</li>
-                    <li>Individuales</li>
-                    <li>Contacto</li>
-                </ul>
+                <div class="footer-logo__socialIncons">
+                        <div>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div>    
+                            <i class="fas fa-at"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                </div>
             </div>
             <div class="footer-contacto">
-                <h2 class="footer-contacto__title">CONTACTO</h2>
-                <ul class="footer-contacto__detail">
-                    <li>info@reViajes.com.ar</li>
-                    <li>(011)15 1234 4566</li>
-                </ul>
+                <div class="footer-contacto__box" >
+                    <h2 class="footer-contacto__title">CONTACTO</h2>
+                    <ul class="footer-contacto__detail">
+                        <li>info@reViajes.com.ar</li>
+                        <li>(011)15 1234 4566</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
