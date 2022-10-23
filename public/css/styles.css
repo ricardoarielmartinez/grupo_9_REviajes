@@ -104,6 +104,7 @@ MAIN. Ejemplo: slider, lista de articulos,articulos
 }
 .picture-frontpage__barraBusqueda--button{
     font-size: 18px;
+    font-weight: bolder;
     width: 30%;
     padding: 10px;
     margin-left: -5px;
@@ -112,6 +113,7 @@ MAIN. Ejemplo: slider, lista de articulos,articulos
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-width: 0px;
+    background-color: #b1976f;
 }
 
 .front-page{
