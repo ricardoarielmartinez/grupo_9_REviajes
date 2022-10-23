@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Estos es una prueba de Git de Richard-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href = "https://fontawesome.com/v5/search?o=r&m=free" rel = "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles_login.css" rel="stylesheet">
+    <link href="css/styles_register.css" rel="stylesheet">    
+    <title>reViejes</title>
 </head>
+
+
 <body>
-    <h4>productDetail</h4>
+    <header>
+        <Div class="barra-navegacion">
+            <nav >
+                <div class="barra-navegacion__nav">
+                    <div class="barra-navegacion__picture">
+                        <img class="barra-navegacion__picture--imagen" src="./images/logo.jpg" alt= "logoReViaje">
+                    </div>
+                    <div class="lista-menu">
+                        <ul class="lista-menu__ul">
+                            <div>
+                                <li class="lista-menu__ul--item"> <a  class ="lista-menu__ul--link" href="/"> Inicio </a></li>
+                            </div>
+                            <div>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Nosotros</a></li>
+                            </div>
+                            <div>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Grupales</a></li>
+                            </div>
+                            <div>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Individuales</a></li>
+                            </div>
+                            <div>
+                                <li class="lista-menu__ul--item"><a  class ="lista-menu__ul--link" href="/">Contacto</a></li>
+                            </div>
+
+                        </ul>
+                    </div>
+                    <div class="iconos-accesos">
+                        <div>
+                            <i class="fas fa-suitcase"></i>   
+                        </div>
+                        <div>
+                            <a href="/login"><i class="fas fa-user"></i></a>
+                        </div>
+                        <div  class="burger-menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-div">
+            <section class="titulo-detalle">
+                <div>
+                    <h2 class="titulo-detalle__destino"> PUNTA CANA</h2>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </section>
+
+            <div class="lista-productos">
+                <div class="item-producto__date">
+                    <h3>26 Dic / 2022</h3>
+                </div>
+                <div class="item-producto__picture">
+                    <img class="item-producto__picture--img" src="./images/trip_1.jpg" alt="">
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-page">
+            <div class="footer-logo">
+                <div class="footer-logo__picture">
+                    <img class="footer-logo__picture" src="./images/logo.jpg" alt="Logo de la Empresa">
+                </div>
+                <div class="footer-logo__description">
+                    <p class="footer-logo__description">
+                        Nos especializamos en SALIDAS GRUPALES ACOMPAÑADAS tanto a
+                        destinos nacionales como internacionales, con SERVICIO TODO INCLUIDO
+                    </p>
+                </div>
+                <div class="footer-logo__socialIncons">
+                        <div>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div>    
+                            <i class="fas fa-at"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="footer-contacto">
+                <div class="footer-contacto__box" >
+                    <h2 class="footer-contacto__title">CONTACTO</h2>
+                    <ul class="footer-contacto__detail">
+                        <li>info@reViajes.com.ar</li>
+                        <li>(011)15 1234 4566</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

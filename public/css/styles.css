@@ -18,7 +18,12 @@ body{
     background-color:#404040 ;
     margin: 0%;    
 }
+.pagina-construccion{
 
+    padding: 50px;
+    text-align: center;
+    margin: 0%;
+}
 
 
 /*:::::::::::::::: REGLAS HEADER ::::::::::::::::
