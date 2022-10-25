@@ -13,6 +13,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/styles_login.css" rel="stylesheet">
     <link href="css/styles_register.css" rel="stylesheet">    
+    <link href="css/styles_productDetail.css" rel="stylesheet">   
     <title>reViejes</title>
 </head>
 
@@ -64,20 +65,40 @@
         <div class="main-div">
             <section class="titulo-detalle">
                 <div>
-                    <h2 class="titulo-detalle__destino"> PUNTA CANA</h2>
+                    <h2 class="titulo-detalle__destino"> PUNTA CANA
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
+                    </h2>
                 </div>
             </section>
-            <div class="detalle-viaje">
-
-            </div>
-
-            <div class="lista-productos">
-                <div class="item-producto__picture">
-                    <img class="item-producto__picture--img" src="./images/trip_1.jpg" alt="">
+            <h2>Detalle del Viaje</h2>
+            <div class="detalle-viaje">  
+                <div class="detalle-viaje__cajaOpciones">
+                    <div class="detalle-viaje__cajaOpciones--cajaLista">
+                        <ul class="detalle-viaje__cajaOpciones--lista">
+                            <li>Descripción</li>
+                            <li>Visitas</li>
+                            <li>Hoteles</li>
+                            <li>Comidas</li>
+                            <li>Tarifas</li>
+                            <li>Consultas</li>
+                        </ul>
+                    </div>
+                    <Div class="texto-descripcionViaje">
+                        <P class="texto-descripcionViaje_parrafo">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi assumenda aut sapiente facere vel explicabo! Velit voluptatum animi dolorum sit distinctio similique ipsam, commodi beatae quas recusandae, maiores esse dignissimos.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum error debitis consequuntur nam fugiat quis cum itaque eaque deserunt quas, explicabo praesentium dolores asperiores eligendi quibusdam rerum odit laborum vitae!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores itaque adipisci quibusdam error aperiam molestias voluptate rem neque repellendus quasi quia veritatis, laborum ipsum quo molestiae voluptatem suscipit sunt a.
+                            <div>
+                                <Button class="detalle-viaje__botonAgregar"> Agregar al carrito</Button>
+                            </div>
+                        </P>
+                    </Div>
+                </div>
+                <div class="detalle-viaje__picture">
+                    <img class="detalle-viaje__picture--img" src="./images/trip_1.jpg" alt="">
                 </div>
             </div>
     </main>

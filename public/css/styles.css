@@ -19,7 +19,6 @@ body{
     margin: 0%;    
 }
 .pagina-construccion{
-
     padding: 50px;
     text-align: center;
     margin: 0%;
@@ -69,9 +68,8 @@ WEB
 }
 .lista-menu__ul--item{
     padding: 10px;
-    color: white;  
     font-size: 20px;
-
+    transition: font-size 2000;
 }
 
 
@@ -225,21 +223,16 @@ MAIN. Ejemplo: slider, lista de articulos,articulos
     position: absolute;
     bottom: 5%;
     left: 5%;
+    width: 60%;
 }
 
 
-.item-producto__description h3 {
+.item-producto__description--h3 {
     color: white;
     font-size: 35px;
     padding: 0%;
     margin: 0px;
 }
-
-.item-producto__description {
-    width: 60%;
-}
-
-
 
 
 
@@ -251,7 +244,7 @@ FOOTER
 .footer-page{
 
     border-top-style:solid; 
-    border-top-color: #b1976f;;
+    border-top-color: #b1976f;
     padding: 15px;
     margin-top: 30px;
     display: flex;
@@ -323,33 +316,18 @@ FOOTER
 Aca van los estilos correspondiente con Animaciones de
 objetos. Ejemplo  hover, active
 -------------------------------------------------*/
-.lista-menu__ul--item a:hover{
-    color: white;
-    font-size: 30px;
-    text-decoration:none;
+.lista-menu__ul--item:hover{
+    font-size: 25px;
 }
-
-.lista-menu__ul--item a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a:visited, a:active {
-    text-decoration: none;
-    color: white;
-}
-
 
 
 .item-producto:hover {
     box-shadow: 0px 0px 10px  rgb(255, 255, 255);
 }
 
+.item-producto:hover {
+    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
+}
 
 /*:::::::::::::::: MEDIAS QUERY ::::::::::::::::
 --------------------------------------------------
@@ -383,6 +361,7 @@ de la pagina de acuerdo a la resolución
     .item-producto{
         width: 45%;
     }
+
 }
 @media (min-width: 1000px) {
     .lista-menu{
@@ -402,4 +381,5 @@ de la pagina de acuerdo a la resolución
     .footer-logo{
         width: 50%;
     }
+
 }
