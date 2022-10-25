@@ -16,6 +16,11 @@ de la pagina. Como por ejemplo main, header,h1..
     text-align: center;
 }
 
+h1{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
 .login-card {
     padding: 30px;
     width: 100%;
