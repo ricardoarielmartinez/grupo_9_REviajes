@@ -1,4 +1,165 @@
+/*:::::::::::::::: REGLAS BASICAS ::::::::::::::::
+--------------------------------------------------
+Aca van los estilos correspondiente a layout básico
+de la pagina. Como por ejemplo main, header,h1.. 
+-------------------------------------------------*/
+
+*{
+    box-sizing:border-box;
+    position: relative;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
 .form-login{
     background-color: #b1976f;
-    padding: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.login-card {
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.login-bar {
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 90%;
+    max-width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.checkbox-recordarme {
+    text-align: justify;
+    margin: 15px;
+}
+
+.button-box{
+    display: flex;
+    justify-content:space-around;
+    text-align: right;
+    width: 90%;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #404040;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 40%;
+    padding: 0%;
+}
+.link-register{
+    font-size: 18px;
+}
+
+
+/*:::::::::::::::: ANIMACIONES ::::::::::::::::
+--------------------------------------------------
+Aca van los estilos correspondiente con Animaciones de
+objetos. Ejemplo  hover, active
+-------------------------------------------------*/
+.lista-menu__ul--item a:hover{
+    color: white;
+    font-size: 30px;
+    text-decoration:none;
+}
+
+.lista-menu__ul--item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.item-producto:hover {
+    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
+}
+
+
+/*:::::::::::::::: MEDIAS QUERY ::::::::::::::::
+--------------------------------------------------
+Aca van los estilos correspondiente al comportamiento
+de la pagina de acuerdo a la resolución
+-------------------------------------------------*/
+
+/*tablet*/
+@media (min-width: 768px) {
+    body{
+        background-color: #404040;
+    }
+    .lista-menu__ul{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .barra-navegacion__picture {
+        width: 30%;
+    }  
+    .iconos-accesos{
+        width: 10%;
+    }
+    .lista-productos{
+        flex-wrap: wrap;
+        width: 100%;
+    } 
+    .item-producto{
+        width: 45%;
+    }
+    .form-login{
+        background-color: #404040;
+    }
+
+    .login-card {
+        padding: 30px;
+        background-color: #b1976f;
+        border: #404040 solid 3px;
+        width: 40%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .lista-menu{
+        display: flex;
+        width: 60%;
+        align-content: flex-end;
+    }
+    .footer-contacto{
+        display: block;
+        width: 50%;
+    }
+
+    .item-producto{
+        width: 30%;
+    }
+
+    .footer-logo{
+        width: 50%;
+    }
+
+    .login-card {
+        padding: 30px;
+        background-color: #b1976f;
+        width: 40%;
+        margin: auto;
+    }
 }

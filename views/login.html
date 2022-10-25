@@ -60,10 +60,11 @@
     
     <div class="form-login">
         <form action ="/" method="GET"> 
-            <div>
+            <div class="login-card">
                 <div class="login-bar">
                     <i class="fas fa-envelope"></i>
-                    <input 
+                    <input
+                        class = "login-bar" 
                         type="email" 
                         name="email" 
                         placeholder="E-MAIL" 
@@ -74,26 +75,28 @@
                 <div class="login-bar">
                     <i class="fas fa-lock"></i>
                     <input 
+                        class ="login-bar"
                         type="password" 
                         name="pass" 
                         placeholder="PASSWORD" 
                         required
                     />
                 </div>  
-                <div>     
-                    <input 
+                <div class="checkbox-recordarme">     
+                    
+                    <input
                         type="checkbox" 
                         value= "recordarme" 
                         name="recordarme" 
-                    /> 
+                    />
+                    <label for="recordarme">Recordarme</label>
                 </div>
-
-                    <label for="recordarme">Recordarme</label>          
-                    
-                
-                    <a href="/register">soy nuevo</a>
-                    <button type = "submit">INICIAR</button>
-        
+                <div class="button-box"> 
+                    <a href="/register" class="link-register">¡SOY NUEVO!</a>
+                    <button 
+                        class = "button"
+                        type = "submit">INICIAR</button>
+                </div> 
             </div>
 
         </form>
