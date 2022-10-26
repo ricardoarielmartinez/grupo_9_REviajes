@@ -4,11 +4,7 @@ Aca van los estilos correspondiente a layout básico
 de la pagina. Como por ejemplo main, header,h1.. 
 -------------------------------------------------*/
 
-*{
-    box-sizing:border-box;
-    position: relative;
-    font-family: 'Patrick Hand SC', cursive;
-}
+
 
 .form-login{
     background-color: #b1976f;
@@ -66,32 +62,6 @@ h1{
 Aca van los estilos correspondiente con Animaciones de
 objetos. Ejemplo  hover, active
 -------------------------------------------------*/
-.lista-menu__ul--item a:hover{
-    color: white;
-    font-size: 30px;
-    text-decoration:none;
-}
-
-.lista-menu__ul--item a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a:visited, a:active {
-    text-decoration: none;
-    color: white;
-}
-
-
-
-.item-producto:hover {
-    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
-}
 
 
 /*:::::::::::::::: MEDIAS QUERY ::::::::::::::::
@@ -102,32 +72,7 @@ de la pagina de acuerdo a la resolución
 
 /*tablet*/
 @media (min-width: 768px) {
-    body{
-        background-color: #404040;
-    }
-    .lista-menu__ul{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .barra-navegacion__picture {
-        width: 30%;
-    }  
-    .iconos-accesos{
-        width: 10%;
-    }
-    .lista-productos{
-        flex-wrap: wrap;
-        width: 100%;
-    } 
-    .item-producto{
-        width: 45%;
-    }
+    
     .form-login{
         background-color: #404040;
     }
@@ -143,23 +88,7 @@ de la pagina de acuerdo a la resolución
 }
 
 @media (min-width: 1000px) {
-    .lista-menu{
-        display: flex;
-        width: 60%;
-        align-content: flex-end;
-    }
-    .footer-contacto{
-        display: block;
-        width: 50%;
-    }
-
-    .item-producto{
-        width: 30%;
-    }
-
-    .footer-logo{
-        width: 50%;
-    }
+  
 
     .login-card {
         padding: 30px;

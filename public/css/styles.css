@@ -47,16 +47,18 @@ WEB
     justify-content: flex-end;
     text-align: right;
     width: 50%;
+
 }
 .iconos-accesos i{
-    padding: 5px;
-    font-size: 30px; 
+    padding: 10px;
+    font-size: 50px; 
     color: white;   
 }
 
 .barra-navegacion__picture--imagen{
-    padding: 5px;
-    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
     align-content:center;
 }
 
@@ -67,9 +69,8 @@ WEB
     width: 50%;
 }
 .lista-menu__ul--item{
-    padding: 10px;
-    font-size: 20px;
-    transition: font-size 2000;
+    padding: 2px;
+    font-size: 30px;
 }
 
 
@@ -316,18 +317,34 @@ FOOTER
 Aca van los estilos correspondiente con Animaciones de
 objetos. Ejemplo  hover, active
 -------------------------------------------------*/
-.lista-menu__ul--item:hover{
-    font-size: 30px;
+
+.lista-menu__ul--item a:hover{
+    color: white;
+    font-size: 60px;
+    text-decoration:none;
 }
+
+.lista-menu__ul--item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 .item-producto:hover {
     box-shadow: 0px 0px 10px  rgb(255, 255, 255);
 }
 
-.item-producto:hover {
-    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
-}
 
 /*:::::::::::::::: MEDIAS QUERY ::::::::::::::::
 --------------------------------------------------
@@ -346,7 +363,8 @@ de la pagina de acuerdo a la resolución
         padding-right: 30px;
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:space-evenly;
+
     }
     .barra-navegacion__picture {
         width: 30%;
@@ -364,11 +382,7 @@ de la pagina de acuerdo a la resolución
 
 }
 @media (min-width: 1000px) {
-    .lista-menu{
-        display: flex;
-        width: 60%;
-        align-content: flex-end;
-    }
+
     .footer-contacto{
         display: block;
         width: 50%;
