@@ -11,7 +11,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/styles_login.css" rel="stylesheet">
-        <link href="css/styles_register.css" rel="stylesheet">    
+        <link href="css/styles_register.css" rel="stylesheet">  
+        <link href="css/styles_productDetail.css" rel="stylesheet">     
         <title>reViajes</title>
     </head>
 <body>
@@ -50,25 +51,30 @@
             </nav>
         </div>
     </header>
-    <h1>INGRESO USUARIO</h1>    
+    <section class="titulo-detalle">
+        <div>
+            <h2 class="titulo-detalle__destino"> INGRESO USUARIO</h2>
+        </div>
+    </section>
+
     <div class="form-login">
         <form action ="/" method="GET"> 
             <div class="login-card">
                 <div class="login-bar">
                     <i class="fas fa-envelope"></i>
                     <input
-                        class = "login-bar" 
+                        class = "login-bar__input" 
                         type="email" 
                         name="email" 
                         placeholder="E-MAIL" 
                         required
-                    />
+                    /> 
                 </div>
 
                 <div class="login-bar">
                     <i class="fas fa-lock"></i>
                     <input 
-                        class ="login-bar"
+                        class ="login-bar__input"
                         type="password" 
                         name="pass" 
                         placeholder="PASSWORD" 
@@ -78,6 +84,7 @@
                 <div class="checkbox-recordarme">     
                     
                     <input
+                        class ="login-bar__checkbox"
                         type="checkbox" 
                         value= "recordarme" 
                         name="recordarme" 
@@ -86,9 +93,7 @@
                 </div>
                 <div class="button-box"> 
                     <a href="/register" class="link-register">¡SOY NUEVO!</a>
-                    <button 
-                        class = "button"
-                        type = "submit">INICIAR</button>
+                    <button class = "button" type = "submit">INICIAR</button>
                 </div> 
             </div>
 

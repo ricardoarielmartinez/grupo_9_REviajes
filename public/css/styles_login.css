@@ -7,41 +7,51 @@ de la pagina. Como por ejemplo main, header,h1..
 
 
 .form-login{
-    background-color: #b1976f;
+    background-color: #404040;
     padding: 5px;
     text-align: center;
 }
 
-h1{
-    color: #FFFFFF;
-    font-style: italic;
-}
-
 .login-card {
     padding: 30px;
-    width: 100%;
+    min-width: 600px;
     margin: auto;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #b1976f;
 }
-
-.login-bar {
+.login-bar{
+     width: 100%;
+}
+.login-bar__input {
     border-radius: 5px;
     padding-left: 5px;
     width: 90%;
-    max-width: 300px;
-    height: 30px;
+    min-height: 60px;
     margin-bottom: 15px;
+    font-size: 25px;
+    border-style: none;
 }
 
 .checkbox-recordarme {
-    text-align: justify;
-    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 25px;
+}
+.login-bar__checkbox {
+    transform: scale(2);
+
 }
 
 .button-box{
     display: flex;
-    justify-content:space-around;
+    padding: 20px;
+    justify-content:center;
     text-align: right;
     width: 90%;
+    align-items: baseline;
 }
 
 .button {
@@ -49,11 +59,19 @@ h1{
     background-color: #404040;
     color: #FFFFFF;
     font-size: 18px;
-    width: 40%;
-    padding: 0%;
+    width: 60%;
+    min-height: 60px;
+    margin: 20px;
+
 }
 .link-register{
-    font-size: 18px;
+    min-height: 60px;
+    font-size: 25px;
+}
+
+.fa-envelope, .fa-lock{
+    color: white;
+    font-size: 40px;
 }
 
 
@@ -70,30 +88,3 @@ Aca van los estilos correspondiente al comportamiento
 de la pagina de acuerdo a la resolución
 -------------------------------------------------*/
 
-/*tablet*/
-@media (min-width: 768px) {
-    
-    .form-login{
-        background-color: #404040;
-    }
-
-    .login-card {
-        padding: 30px;
-        background-color: #b1976f;
-        border: #404040 solid 3px;
-        width: 40%;
-        margin: auto;
-    }
-
-}
-
-@media (min-width: 1000px) {
-  
-
-    .login-card {
-        padding: 30px;
-        background-color: #b1976f;
-        width: 40%;
-        margin: auto;
-    }
-}
