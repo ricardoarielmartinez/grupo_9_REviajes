@@ -1,0 +1,102 @@
+
+
+.pago-viaje{
+
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+}
+
+.pago-viaje__picture{
+    display: none;
+    width: 30%;
+}
+
+.pago-viaje__picture--img{
+    width: 100%;
+}
+
+.pago-viaje__detalle{
+
+    width: 55%;
+}
+.pago-viaje__detalle--titulo{
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+
+.pago-viaje__detalle--detalle{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.pago-viaje__precio{
+
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    font-size: 25px;
+    color: white;
+    margin-right: 25px;
+}
+
+.pago-preciototal{
+    display:flex;
+    justify-content: flex-end;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+}
+
+.pago-preciototal__valor{
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+    margin-right: 100px;
+}
+
+.pago-button{
+    display:flex;
+    justify-content: flex-end;
+    margin: 0px;
+
+}
+
+.pago-button__button{
+    border-radius: 5px;
+    background-color:  #b1976f;
+    color: #FFFFFF;
+    font-size: 30px;
+    min-height: 80px;
+    min-width: 250px;
+    margin: 25px;
+    margin-right: 50px;
+ 
+}
+
+.pago-viaje__precio--icono{
+    margin-left: 20px;
+}
+
+/*desktop*/
+@media (min-width: 1000px) {
+
+    .pago-viaje__precio{
+
+        width: 25%;
+
+    }
+    .pago-viaje__picture{
+        display: block;
+        width: 30%;
+    }
+
+}
