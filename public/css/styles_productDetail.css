@@ -14,7 +14,6 @@
     margin: 30px;
     border: solid #b1976f;
     background-color: white;
-    display: flex;
     flex-direction: column;
     padding: 30px;
 
@@ -65,14 +64,13 @@
     padding: 10px;
     margin: 30px 30px 30px 30px;
     text-align: center;
-    right: 0%;
-
 }
 
 .detalle-viaje__picture--img{
     padding: 20px;
     text-align: center;
-    width: 80%;
+    width: 100%;
+    max-width: 1000px;
     
 }
 .texto-descripcionViaje_parrafo{
@@ -83,22 +81,20 @@
 
 }
 
+.detalle-viaje__picture{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+}
 
-
+.detalle-viaje__divagregar{
+    display: flex;
+    justify-content: flex-end;
+}
 @media (min-width: 1000px) {
 
-    .detalle-viaje__cajaOpciones{
-        width: 70%;
-    }
-    .detalle-viaje__picture{
-        flex-direction: row;
-        width: 30%;
-    
-    }
-    .detalle-viaje{
-        flex-direction: ROW;
-    
-    }
+
     .detalle-viaje__cajaOpciones--lista{
         flex-direction: row;
     }
